@@ -7,20 +7,20 @@ kramdown:
 
 # 作者信息
 author: 
-  name: 闫肃
-  email: suyan0830@gmail.com
-  link: http://yansu.org
-  weibo: http://weibo.com/yansu0711
-  github: http://github.com/suyan
+  name: 杨亚梦
+  email: mz.yyam@gmail.com
+  link: http://yyam.me
+  weibo: http://weibo.com/mz0827
+  github: http://github.com/mz0827
 
 # 站点信息
-title: 闫肃的博客 
-description: 闫肃的博客
-url: http://yansu.org
+title: 杨亚梦的博客
+description: 杨亚梦的博客
+url: http://yyam.me
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
-avatar: http://7u2ho6.com1.z0.glb.clouddn.com/site-avatar.png
+avatar: http://www.gravatar.com/avatar/8bdc782a9138d7410c5fa5b2c43f6e18.png
 favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
 
 # google analytics 设置
@@ -30,4 +30,4 @@ ga:
 
 # disqus 设置
 disqus:
-  shortname: suyan-zh
+  shortname: yyam
