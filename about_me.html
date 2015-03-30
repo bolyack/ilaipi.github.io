@@ -1,14 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
     <title>关于我</title>
+    <!--<link href="assets/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <style type="text/css">
+        #my_name{
+            font-size: 40px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #think_myself p{
+            font-size: 20px;
+            margin-left: 35px;
+        }
+        #project_experience ol{
+            font-size: 20px;
+        }
+        #information ul{
+            font-size: 20px;
+            margin-left: 35px;
+        }
+    </style>
 </head>
 <body>
-<div>
-    <h1>这就是我！</h1>
-    <br>
-    <a href="./..">我的博客</a>
+<div class="container">
+    <div class="row" style="margin-top: 10px;">
+        <div class="col-md-10 col-md-offset-2 col-xs-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <span id="my_name">杨亚梦</span>
+                    <span>1990/08/27,处女座</span>
+                    <span>(</span>
+                    <a href="./..">点此进入我的博客</a>
+                    <span>)</span>
+                </div>
+            </div>
+            <div class="row" id="think_myself">
+                <div class="col-xs-12 col-md-12">
+                    <h1>自我认识</h1>
+                </div>
+                <div class="col-md-12 col-xs-12">
+                    <p>良好的编程逻辑</p>
+                    <p>对新技能有比较强的热情和接受能力</p>
+                    <p>代码洁癖</p>
+                    <p>努力进军PM</p>
+                </div>
+            </div>
+            <div class="row" id="project_experience">
+                <div class="col-xs-12 col-md-12">
+                    <h1>项目经验</h1>
+                </div>
+                <div class="col-md-12 col-xs-12">
+                    <ol>
+                        <li>2010/09 - 2013/01  数据中心项目</li>
+                        <p>完成从学校学习到工作岗位的转变，能独立设计项目所需的功能并完成开发。</p>
+                        <p>对Spring/Hibernate等框架在企业中的使用有了进一步的了解。</p>
+                        <p>数据库方面从最初的mysql，后来切换到MSSQL/Oracle并存。</p>
+                        <p>使用tomcat做应用服务器。</p>
+                        <p>这时候windows还是我们主要使用的服务器操作系统</p>
+                        <p>jdk从1.6升级到1.7，从32位切换到64位。</p>
+
+                        <li>2013/02 - 2013/07  管理工作</li>
+                        <p>初尝管理工作，主要负责团队内部的项目管理，团队协作。</p>
+
+                        <li>2013/08 - 2013/10  仙人掌项目</li>
+                        <p>负责仙人掌的资讯数据采集，独立设计开发了一套资讯采集系统，应对200+网站的资讯采集需求。</p>
+                        <p>1个月内只休息了2天时间，完成了采集系统的设计、开发、上线、培训，最终顺利投入使用。</p>
+                        <p>自己自学的MyBatis/jQuery/AngularJS/Bootstrap等常用工具在这个系统中练练手。</p>
+
+                        <li>2013/11 - 2014/05  非IT经验</li>
+                        <p>2013年10月份结束了与公司的3年合同，回家过了一个比较长的国庆假期。</p>
+                        <p>回上海后考虑一段时间后，多方面原因决定开家小餐馆。</p>
+                        <p>经过努力，最终在一个大学里面开始了正式运营。</p>
+                        <p>后来，各种原因，放弃了继续坚持创业，不久后完成了餐馆的转让。</p>
+
+                        <li>2014/07 - 至今  算法平台项目</li>
+                        <p>在家休息了两个月，正考虑下一步做什么的时候，接到了之前公司的电话，新项目需要开发人员，于是就回去了。</p>
+                        <p>将近一年时间没有写代码，有一点点生疏，不过还是很快就熟悉起来，感觉依然还在。</p>
+                        <p>服务器全部换成了Linux，自己的电脑也全部换成了Ubuntu。</p>
+                        <p>新项目中，activemq作为消息总线，接收、分发多个模块之间的消息传递。</p>
+                        <p>mongodb作为数据总线，存储项目中的非关系型数据。</p>
+                    </ol>
+                </div>
+            </div>
+            <div class="row" id="information">
+                <div class="col-xs-12 col-md-12">
+                    <h1>更多信息</h1>
+                </div>
+                <div class="col-md-12 col-xs-12">
+                    <ul class="list-unstyled">
+                        <li>邮箱：mz.yyam@gmail.com / mzdiy@me.com</li>
+                        <li>手机：186-2159-2607</li>
+                        <li>学历：目前是大专</li>
+                        <li>证书：正在考试PMP</li>
+                        <li>英语：正常阅读</li>
+                        <li>运动：羽毛球，篮球等等</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
