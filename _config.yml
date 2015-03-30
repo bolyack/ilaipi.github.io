@@ -24,9 +24,9 @@ avatar: http://7xiato.com1.z0.glb.clouddn.com/8bdc782a9138d7410c5fa5b2c43f6e18.j
 favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
 
 # google analytics 设置
-ga:
-  id: UA-54767140-1
-  url: yansu.org
+#ga:
+#  id: UA-54767140-1
+#  url: yansu.org
 
 # disqus 设置
 disqus:
