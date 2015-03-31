@@ -33,21 +33,38 @@
             <div class="row">
                 <div class="col-md-12">
                     <span id="my_name">杨亚梦</span>
-                    <span>1990/08/27,处女座</span>
                     <span>(</span>
                     <a href="http://mz0827.github.io/">点此进入我的博客</a>
                     <span>)</span>
                 </div>
             </div>
-            <div class="row" id="think_myself">
-                <div class="col-xs-12 col-md-12">
-                    <h1>自我认识</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <span>1990/08/27,处女座</span>
+                    <a href="#my_information">更多信息</a>
                 </div>
-                <div class="col-md-12 col-xs-12">
-                    <p>良好的编程逻辑</p>
-                    <p>对新技能有比较强的热情和接受能力</p>
-                    <p>代码洁癖</p>
-                    <p>努力进军PM</p>
+            </div>
+            <div class="row" id="think_myself">
+                <div class="col-xs-12 col-md-6">
+                    <h1>技能总结</h1>
+                    <ul>
+                        <li>以java为主要开发语言，熟悉面向对象的编程思想</li>
+                        <li>Spring/MyBatis/Hibernate/jdbc</li>
+                        <li>jQuery/AngularJS</li>
+                        <li>Bootstrap</li>
+                        <li>python/nodeJS</li>
+                        <li>Linux(centOS/Fedora/Ubuntu)</li>
+                        <li>mysql/Oracle/Sql Server</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <h1>自我认识</h1>
+                    <ul>
+                        <li>良好的编程逻辑</li>
+                        <li>对新技能有比较强的热情和接受能力</li>
+                        <li>代码洁癖</li>
+                        <li>努力进军PM</li>
+                    </ul>
                 </div>
             </div>
             <div class="row" id="project_experience">
@@ -68,8 +85,18 @@
                         <p>初尝管理工作，主要负责团队内部的项目管理，团队协作。</p>
 
                         <li>2013/08 - 2013/10  仙人掌项目</li>
-                        <p>负责仙人掌的资讯数据采集，独立设计开发了一套资讯采集系统，应对200+网站的资讯采集需求。</p>
-                        <p>1个月内只休息了2天时间，完成了采集系统的设计、开发、上线、培训，最终顺利投入使用。</p>
+                        <p>负责仙人掌的资讯数据采集，独立设计开发了一套资讯采集系统。</p>
+                        <p>此系统采用B-S结构，对资讯数据进行抽象。</p>
+                        <ul>
+                            <li>资讯列表抽象为循环对象</li>
+                            <li>包含信息的网页抽象为页面对象</li>
+                            <li>需要的信息抽象为字段对象</li>
+                        </ul>
+                        <p>每个网站由一个循环对象、1+N个页面、N个字段组成。</p>
+                        <p>前端可以通过拖动来增加/删除页面、字段配置，并对每个对象设置属性值。</p>
+                        <p>后端使用MyBatis作为ORM框架，可以为每个网站指定对应的mapper。</p>
+                        <p>最终的系统可以应对各种资讯网站的数据采集需求。</p>
+                        <p>1个月内休息了2天时间，完成了采集系统的设计、开发、上线、培训，顺利投入使用。</p>
                         <p>自己自学的MyBatis/jQuery/AngularJS/Bootstrap等常用工具在这个系统中练练手。</p>
 
                         <li>2013/11 - 2014/05  非IT经验</li>
@@ -89,7 +116,7 @@
             </div>
             <div class="row" id="information">
                 <div class="col-xs-12 col-md-12">
-                    <h1>更多信息</h1>
+                    <h1><a name="my_information"></a>更多信息</h1>
                 </div>
                 <div class="col-md-12 col-xs-12">
                     <ul class="list-unstyled">
