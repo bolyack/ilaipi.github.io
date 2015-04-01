@@ -10,6 +10,7 @@ keywords: scp nohup ProcessBuilder memory limit cpu
 ---
 
 ## Linux
+
 ### 1. scp命令
 ```
 从一台Linux传输文件到另一台Linux。
@@ -33,6 +34,7 @@ scp -r algo-fnode.jar lib/ fnode@172.20.10.62:/home/fnode/app
 ```
 
 ## Java
+
 ### 1. 获取本机IP
 ```
     //已在windows/Linux测试过。
