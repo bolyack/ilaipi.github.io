@@ -39,7 +39,7 @@ character-set-server=utf8
 default-character-set=utf8
 ```
 
-##3. 重启mysql服务
+## 3. 重启mysql服务
 
 执行：
 
@@ -47,7 +47,7 @@ default-character-set=utf8
 sudo service mysql restart
 ```
 
-##4. 查看编码
+## 4. 查看编码
 
 执行：
 
@@ -57,7 +57,7 @@ mysql -uroot -p
 show variables where Variable_name like "%chara%";
 ```
 
-#注意
+# 注意
 
 在修改编码前创建的表，修改编码之后，表的编码并不会被改变，所以再向表里插入数据还是会乱码。最简单的解决办法是把表删除了重建。
 建议所有建表、建库语句都带上编码设置，如：
