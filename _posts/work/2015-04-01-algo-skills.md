@@ -81,11 +81,11 @@ scp -r algo-fnode.jar lib/ fnode@172.20.10.62:/home/fnode/app
         processBuilder.command(commoands);
 ```
 
-最好通过这种方式来设置command。也可以：
-ProcessBuilder builder = new ProcessBuilder("java", "-jar"...);
+最好通过这种方式来设置`command`。也可以：
+`ProcessBuilder builder = new ProcessBuilder("java", "-jar"...);`
 但是不能：
-ProcessBuilder builder = new ProcessBuilder("java -jar...");
-这样会认为"java -jar..."是一个命令，而不会认为 -jar 是参数。
+`ProcessBuilder builder = new ProcessBuilder("java -jar...");`
+这样会认为`java -jar...`是一个命令，而不会认为 `-jar` 是参数。
 
 然后，
 
@@ -123,7 +123,7 @@ ProcessBuilder builder = new ProcessBuilder("java -jar...");
 
 #### 3.1 java函数
 
-java函数就是通过java -jar命令启动一个进程，可以直接通过此命令的命令行参数：
+java函数就是通过`java -jar`命令启动一个进程，可以直接通过此命令的命令行参数：
 ```-Xmx xxxM```
 设置最大堆占用内存
 
