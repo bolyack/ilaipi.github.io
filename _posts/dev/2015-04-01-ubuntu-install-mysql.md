@@ -10,7 +10,9 @@ keywords: ubuntu mysql
 执行：
 
 ```
-sudo apt-get install mysql-server mysql-client
+[ubuntu] sudo apt-get install mysql-server mysql-client
+[fedora] yum localinstall http://dev.mysql.com/get/mysql-community-release-fc21-5.noarch.rpm
+[fedora] yum install mysql-community-server
 ```
 
 ## 2. 设置编码
@@ -18,7 +20,8 @@ sudo apt-get install mysql-server mysql-client
 执行：
 
 ```
-sudo vim /etc/mysql/my.cnf
+[ubuntu] sudo vim /etc/mysql/my.cnf
+[fedora] vim /etc/my.cnf
 ```
 
 找到客户端配置```[client]``` 在下面添加
