@@ -1,6 +1,6 @@
 ### 我的博客
 
-地址：[http://yyam.me](http://yyam.me)
+地址：[http://ilaipi.me](http://ilaipi.me)
 
 ### 安装说明
 
