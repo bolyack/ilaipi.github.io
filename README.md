@@ -1,6 +1,6 @@
 ### 我的博客
 
-地址：[http://ilaipi.me](http://ilaipi.me)
+地址：[http://blog.ilaipi.me](http://blog.ilaipi.me)
 
 ### 安装说明
 
