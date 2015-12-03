@@ -9,14 +9,14 @@ kramdown:
 author: 
   name: 杨亚梦
   email: mz.yyam@gmail.com
-  link: http://yyam.me
+  link: http://private.ilaipi.me
   weibo: http://weibo.com/mz0827
-  github: http://github.com/mz0827
+  github: http://github.com/ilaipi
 
 # 站点信息
 title: 杨亚梦的博客
 description: 杨亚梦的博客
-url: http://yyam.me
+url: http://ilaipi.me
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
@@ -30,4 +30,4 @@ favicon: http://7xiato.com1.z0.glb.clouddn.com/favicon.ico
 
 # disqus 设置
 disqus:
-  shortname: yyam
+  shortname: ilaipi
