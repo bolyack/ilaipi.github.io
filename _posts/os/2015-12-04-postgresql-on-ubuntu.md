@@ -1,7 +1,7 @@
 ---
 layout: post
 title: postgresql on ubuntu
-category: 操作系统 数据库
+category: 数据库
 keywords: postgresql
 ---
 

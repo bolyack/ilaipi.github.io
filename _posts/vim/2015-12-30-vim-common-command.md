@@ -1,7 +1,7 @@
 ---
 layout: post
 title: vim常用命令
-category: 开发环境 vim
+category: vim
 keywords: vim
 ---
 
