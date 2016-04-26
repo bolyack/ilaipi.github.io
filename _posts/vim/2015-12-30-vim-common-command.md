@@ -5,6 +5,8 @@ category: vim
 keywords: vim
 ---
 
+参考： [简明 Vim 练级攻略](http://coolshell.cn/articles/5426.html)
+
 ## 替换
 
 把所有行的 `search` 替换为 `replacement`
