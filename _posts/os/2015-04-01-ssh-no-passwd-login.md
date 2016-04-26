@@ -34,8 +34,11 @@ keywords: ssh server
 
   ```
   Host 221
+  
     HostName 192.168.100.221
+    
     User ncd
+    
     IdentityFile ~/.ssh/id_rsa
   ```
 
