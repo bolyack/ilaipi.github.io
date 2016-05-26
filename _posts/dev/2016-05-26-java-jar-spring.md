@@ -8,10 +8,10 @@ keywords: java spring
 ## environment  
 
 ```
-    modules:
-    spring-loader   // 所有spring jar包定义，入口文件定义context.xml
-    env             // 数据库配置文件定义db-*.properties，spring数据源定义文件db-*.xml
-    init            // 程序入口
+modules:
+spring-loader   // 所有spring jar包定义，入口文件定义context.xml
+env             // 数据库配置文件定义db-*.properties，spring数据源定义文件db-*.xml
+init            // 程序入口
 ```
 
 ### 在`spring-loader`模块中定义：`ApplicationHelper.java`
