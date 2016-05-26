@@ -9,7 +9,6 @@ kramdown:
 author: 
   name: 杨亚梦
   email: mz.yyam@gmail.com
-  link: http://private.ilaipi.me
   weibo: http://weibo.com/mz0827
   github: http://github.com/ilaipi
 
@@ -24,7 +23,7 @@ avatar: http://7xiato.com1.z0.glb.clouddn.com/avatar.jpeg
 favicon: http://7xiato.com1.z0.glb.clouddn.com/favicon.ico
 
 # google analytics 设置
-#ga:
+# ga:
 #  id: UA-54767140-1
 #  url: yansu.org
 
