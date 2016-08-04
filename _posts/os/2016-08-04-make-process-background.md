@@ -5,6 +5,7 @@ category: 操作系统
 keywords: 后台运行 进程
 ---
 
+[参考链接](http://askubuntu.com/questions/8653/how-to-keep-processes-running-after-ending-ssh-session)
 doing the following steps:
 
  1. ssh [server]
